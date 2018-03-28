@@ -1,0 +1,456 @@
+testrail : true
+West1:
+    site:
+        - enpsbigtedsel : BigTedW1.png
+          bigtedsitelogo : West1.png
+    cgstyles:
+        NEWS:
+            - cgcode    : NAME
+              image     : news.png
+              image1    : newshl.png
+              image2    : newsname.png
+              typekey   : 0
+              cgcodekey : 0
+            - cgcode    : STORY STRAP
+              image     : news.png
+              image1    : newshl.png
+              image2     : newsstorystrap.png
+              typekey   : 0
+              cgcodekey : 1
+            - cgcode    : CREDIT DATE
+              image     : news.png
+              image1    : newshl.png
+              image2    : newscreditdate.png
+              typekey   : 0
+              cgcodekey : 5
+            - cgcode    : STORY BRAND
+              image     : news.png
+              image1    : newshl.png
+              image2    : newsstorybrand.png
+              typekey   : 0
+              cgcodekey : 8
+            - cgcode    : LOCATOR LEFT
+              image     : news.png
+              image1    : newshl.png
+              image2    : newslocatorleft.png
+              typekey   : 0
+              #cgcodekey : 10
+              #cgcodekey : 14
+              cgcodekey : 11
+              #cgcodekey : 12
+            - cgcode    : BBC LONDON CONTACT US
+              image     : news.png
+              image1    : newshl.png
+              image2    : bbclondoncontactus2.png
+              typekey   : 0
+              cgcodekey : 47
+        NEWSNIGHT:
+            - cgcode    : NN NAME
+              image     : newsnight.png
+              image1    : newsnighthl.png
+              image2    : newsnightnnname.png
+              typekey   : 1
+              cgcodekey : 0
+            - cgcode    : NN LOCATOR
+              image     : newsnight.png
+              image1    : newsnighthl.png
+              image2    : newsnightnnlocator.png
+              typekey   : 1
+              cgcodekey : 1
+            - cgcode    : NN LOCATOR OFF
+              image     : newsnight.png
+              image1    : newsnighthl.png
+              image2    : cgnoeditablefields.png
+              typekey   : 1
+              cgcodekey : 2
+            - cgcode    : NN TOP LEFT
+              image     : newsnight.png
+              image1    : newsnighthl.png
+              image2    : newsnightnnlocatorTL.png
+              typekey   : 1
+              cgcodekey : 3
+            - cgcode    : CUE DOT OFF
+              image     : newsnight.png
+              image1    : newsnighthl.png
+              image2    : newsnightcuedotoff.png
+              typekey   : 1
+              cgcodekey : 13
+        POLITICS:
+            - cgcode    : NAME
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicsname.png
+              typekey   : 2
+              cgcodekey : 0
+            - cgcode    : CREDIT
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicscredit.png
+              typekey   : 2
+              cgcodekey : 1
+            - cgcode    : DISCO
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicsdisco.png
+              typekey   : 2
+              cgcodekey : 2
+            - cgcode    : LOCATOR
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicslocator.png
+              typekey   : 2
+              cgcodekey : 3
+            - cgcode    : COMING UP
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicscomingup.png
+              typekey   : 2
+              cgcodekey : 4
+            - cgcode    : CRAWL
+              image     : politics.png
+              image1    : politicshl.png
+              image2    : politicscrawl.png
+              typekey   : 2
+              cgcodekey : 6
+        VDP:
+            - cgcode    : NAME
+              image     : vdp.png
+              image1    : vdphl.png
+              image2    : vdpname.png
+              typekey   : 3
+              cgcodekey : 0
+        PARLIAMENT:
+            - cgcode    : NAME
+              image     : parliament.png
+              image1    : parliamenthl.png
+              image2    : parliamentname.png
+              typekey   : 4
+              cgcodekey : 0
+        OTHERS:
+            - cgcode    : HARDTALK LOCATOR
+              image     : others.png
+              image1    : othershl.png
+              image2    : othershardtalklocator.png
+              typekey   : 5
+              cgcodekey : 1
+            - cgcode    : NEWSWATCH STRAP
+              image     : others.png
+              image1    : othershl.png
+              image2    : othersnewswatchstrap.png
+              typekey   : 5
+              cgcodekey : 3
+            - cgcode    : NRD LOGO ON
+              image     : others.png
+              image1    : othershl.png
+              image2    : cgnoeditablefields.png
+              typekey   : 5
+              cgcodekey : 36
+        STORYBRAND:
+            - image     : fifa.png
+              cgcodekey : 8
+              imgkey    : 0
+            - image     : booker_prize.png
+              cgcodekey : 8
+              imgkey    : 1
+            - image     : remembrance_day.png
+              cgcodekey : 8
+              imgkey    : 2
+            - image     : ebola.png
+              cgcodekey : 8
+              imgkey    : 3
+            - image     : costa_book_awards.png
+              cgcodekey : 8
+              imgkey    : 4
+            - image     : flood.png
+              cgcodekey : 8
+              imgkey    : 5
+            - image     : local_elections.png
+              cgcodekey : 8
+              imgkey    : 6
+            - image     : pmq.png
+              cgcodekey : 8
+              imgkey    : 7
+            - image     : nhs_winter.png
+              cgcodekey : 8
+              imgkey    : 8
+            - image     : focusonafrica.png
+              cgcodekey : 8
+              imgkey    : 9
+            - image     : g7.png
+              cgcodekey : 8
+              imgkey    : 10
+            - image     : greece.png
+              cgcodekey : 8
+              imgkey    : 11
+            - image     : labour_leadership.png
+              cgcodekey : 8
+              imgkey    : 12
+            - image     : bedget_spendrev.png
+              cgcodekey : 8
+              imgkey    : 13
+            - image     : newsbusiness.png
+              cgcodekey : 8
+              imgkey    : 14
+            - image     : irantalk.png
+              cgcodekey : 8
+              imgkey    : 15
+            - image     : migrants.png
+              cgcodekey : 8
+              imgkey    : 16
+            - image     : nhs_weekend.png
+              cgcodekey : 8
+              imgkey    : 17
+            - image     : queenlogestreign.png
+              cgcodekey : 8
+              imgkey    : 18
+            - image     : scotlands_decision.png
+              cgcodekey : 8
+              imgkey    : 19
+            - image     : libdemconference2015.png
+              cgcodekey : 8
+              imgkey    : 20
+            - image     : conservative_conf2015.png
+              cgcodekey : 8
+              imgkey    : 21
+            - image     : greenparty_conf2015.png
+              cgcodekey : 8
+              imgkey    : 22
+            - image     : labour_conf2015.png
+              cgcodekey : 8
+              imgkey    : 23
+            - image     : plaidcymru_conf2015.png
+              cgcodekey : 8
+              imgkey    : 24
+            - image     : snp_conf2015.png
+              cgcodekey : 8
+              imgkey    : 25
+            - image     : ukip_conf2015.png
+              cgcodekey : 8
+              imgkey    : 26
+            - image     : man_booker_prize.png
+              cgcodekey : 8
+              imgkey    : 27
+            - image     : china.png
+              cgcodekey : 8
+              imgkey    : 28
+            - image     : tanzania_election.png
+              cgcodekey : 8
+              imgkey    : 29
+            - image     : vw_crisis.png
+              cgcodekey : 8
+              imgkey    : 30
+
+    mosartset:
+        8PMSUMM:
+            - template    : ACCESSORIES
+              image1      : 8pmsumm.png
+              image2      : 8pmsummhl.png
+              image3      : 8pmsumaccessoriesL.png
+              image4      : noadditionalparameters.png
+              setkey      : 0
+              templatekey : 0
+            - template    : BREAK
+              image1      : 8pmsumm.png
+              image2      : 8pmsummhl.png
+              image3      : 8pmsumbreakL.png
+              image4      : noadditionalparameters.png
+              setkey      : 0
+              templatekey : 1
+            - template    : CAMERA
+              image1      : 8pmsumm.png
+              image2      : 8pmsummhl.png
+              image3      : 8pmsummcameraL.png
+              image4      : noadditionalparameters.png
+              setkey      : 0
+              templatekey : 2
+        ARABICXTRA:
+            - template    : ACCESSORIES
+              image1      : arabicxtra.png
+              image2      : arabicxtrahl.png
+              image3      : arabicxtraaccessoriesL.png
+              image4      : noadditionalparameters.png
+              setkey      : 2
+              templatekey : 0
+            - template    : BREAK
+              image1      : arabicxtra.png
+              image2      : arabicxtrahl.png
+              image3      : arabicxtrabreakL.png
+              image4      : noadditionalparameters.png
+              setkey      : 2
+              templatekey : 1
+        GMT:
+            - template    : ACCESSORIES
+              image1      : gmt.png
+              image2      : gmthl.png
+              image3      : gmtaccessoriesL.png
+              image4      : gmtaccessoriesR.png
+              setkey      : 9
+              #setkey      : 13
+              #setkey      : 12
+              templatekey : 0
+        LDN:
+            - template    : ACCESSORIES
+              image1      : ldn.png
+              image2      : ldnhl.png
+              #image3      : ldnaccessoriesL_old.png
+              image3      : ldnaccessoriesL.png
+              image4      : ldnaccessoriesR.png
+              #setkey      : 28
+              #setkey      : 27
+              setkey      : 30
+              #setkey      : 23
+              #setkey      : 17
+              #setkey      : 16
+              templatekey : 0
+            - template    : BREAK
+              image1      : ldn.png
+              image2      : ldnhl.png
+              image3      : ldnbreakL.png
+              image4      : noadditionalparameters.png
+              #setkey      : 28
+              #setkey      : 27
+              setkey      : 30
+              #setkey      : 23
+              #setkey      : 17
+              #setkey      : 16
+              templatekey : 1
+            - template    : FLOAT
+              image1      : ldn.png
+              image2      : ldnhl.png
+              image3      : ldnfloatL.png
+              image4      : noadditionalparameters.png
+              #setkey      : 28
+              #setkey      : 27
+              setkey      : 30
+              #setkey      : 23
+              #setkey      : 17
+              #setkey      : 16
+              templatekey : 3
+            - template    : GRAPHICS
+              image1      : ldn.png
+              image2      : ldnhl.png
+              image3      : ldngraphicsL.png
+              #image3      : ldngraphicsL_new.png
+              image4      : noadditionalparameters.png
+              #setkey      : 28
+              #setkey      : 27
+              setkey      : 30
+              #setkey      : 23
+              #setkey      : 17
+              #setkey      : 16
+              templatekey : 5
+            - template    : SOUND
+              image1      : ldn.png
+              image2      : ldnhl.png
+              image3      : ldnsoundL.png
+              image4      : noadditionalparameters.png
+              #setkey      : 28
+              #setkey      : 27
+              setkey      : 30
+              #setkey      : 23
+              #setkey      : 17
+              #setkey      : 16
+              templatekey : 9
+        NEWSNIGHT:
+            - template    : ACCESSORIES
+              image1      : newsnight.png
+              image2      : newsnighthl.png
+              image3      : newsnightaccessoriesL.png
+              image4      : noadditionalparameters.png
+              #setkey      : 22
+              #setkey      : 19
+              #setkey      : 20
+              #setkey      : 29
+              setkey      : 32
+              templatekey : 0
+            - template    : BREAK
+              image1      : newsnight.png
+              image2      : newsnighthl.png
+              image3      : newsnightbreakL.png
+              image4      : noadditionalparameters.png
+              #setkey      : 22
+              #setkey      : 19
+              #setkey      : 20
+              #setkey      : 29
+              setkey      : 32
+              templatekey : 1
+        WORLD NEWS:
+            - template    : ACCESSORIES
+              image1      : worldnews.png
+              image2      : worldnewshl.png
+              image3      : worldnewsaccessoriesL.png
+              image4      : noadditionalparameters.png
+              setkey      : 31
+              templatekey : 0
+            - template    : BREAK
+              image1      : worldnews.png
+              image2      : worldnewshl.png
+              image3      : worldnewsbreakL.png
+              image4      : noadditionalparameters.png
+              setkey      : 31
+              templatekey : 1
+Millbank:
+    site:
+        - enpsbigtedsel : BigTedMillbank.png
+          bigtedsitelogo : Millbank.png
+    cgstyles:
+        NEWS:
+            - cgcode    : NAME
+              image     : news.png
+              image1    : newshl.png
+              image2    : newsname.png
+              typekey   : 0
+              cgcodekey : 0
+            - cgcode    : STORY STRAP
+              image     : news.png
+              image1    : newshl.png
+              image2     : newsstorystrap.png
+              typekey   : 0
+              cgcodekey : 1
+            - cgcode    : CREDIT DATE
+              image     : news.png
+              image1    : newshl.png
+              image2    : newscreditdate.png
+              typekey   : 0
+              cgcodekey : 5
+            - cgcode    : STORY BRAND
+              image     : news.png
+              image1    : newshl.png
+              image2    : newsstorybrand.png
+              typekey   : 0
+              cgcodekey : 8
+            - cgcode    : LOCATOR LEFT
+              image     : news.png
+              image1    : newshl.png
+              image2    : newslocatorleft.png
+              typekey   : 0
+              cgcodekey : 11
+    mosartset:
+        8PMSUMM:
+            - template    : ACCESSORIES
+              image1      : 8pmsumm.png
+              image2      : 8pmsummhl.png
+              image3      : 8pmsumaccessoriesL.png
+              image4      : noadditionalparameters.png
+              setkey      : 0
+              templatekey : 0
+            - template    : BREAK
+              image1      : 8pmsumm.png
+              image2      : 8pmsummhl.png
+              image3      : 8pmsumbreakL.png
+              image4      : noadditionalparameters.png
+              setkey      : 0
+              templatekey : 1
+Plymouth:
+    site:
+        - enpsbigtedsel : PlymouthBigTed.png
+          bigtedsitelogo : Plymouth.png
+ATVPTV:
+    site:
+        - enpsbigtedsel : BigTedATVPTV.png
+          bigtedsitelogo : ATVPTV.png
+BC_PQ_QA:
+    site:
+        - enpsbigtedsel : BigTedBC_PQ_QA.png
+          bigtedsitelogo : BC_PQ_QA.png
+
